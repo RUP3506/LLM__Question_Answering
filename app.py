@@ -87,28 +87,3 @@ if selection_2 == "Text":
 if selection_2 == "Image":
      st.write("We are working on it, soon we will launch models which will take images as input..")
 
-
-
-
-# def download_text(file_path):
-#     with open(file_path, "w") as f:
-#         f.write(output) 
-
-# clicked_4 = st.button('Download Text')
-# if clicked_4:
-#     clicked_5 = st.button("Default Path")
-#     if clicked_5:
-#         download_text("generated_text.txt")rd
-
-# download_path = st.input_text()
-
-# if download_path is not None:
-#     file_path = os.path.join(str(download_path), "generated_text.txt")
-#     if st.button("Download Text"):
-#         download_text(file_path="generated_text.txt")
-#     elif st.button("Add Path"):
-#         path = st.text_input("path__")
-#         try:
-#             download_text(file_path=path)
-#         except path.error as e:
-#             print("Wrong path")
